@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Frete</string>
+    <string name="app_name">Calcula Frete</string>
+
+    <string-array name="pagamentos_arrays">
+        <item>Debito</item>
+        <item>Credito A Vista</item>
+        <item>Credito Parcelado</item>
+    </string-array>
+
 </resources>

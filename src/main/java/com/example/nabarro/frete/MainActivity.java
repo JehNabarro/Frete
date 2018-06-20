@@ -2,6 +2,7 @@ package com.example.nabarro.frete;
 
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent i = new Intent(MainActivity.this, Main2Activity.class);
-
+                i.putExtra("the_value", 900);
                 startActivity(i);
 
             }
